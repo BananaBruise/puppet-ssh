@@ -1,1 +1,4 @@
 ---
+ssh::ensure: 'present'
+ssh::service_enable: true
+ssh::service_ensure: 'running'
